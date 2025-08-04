@@ -9,6 +9,7 @@ public class MockWebClient {
 
         // TODO: Create a socket to connect to the web server on port 8080
         try(Socket socket=new Socket("localhost",8080)){
+            
 
         // :TODO Create input and output streams for the socket
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
